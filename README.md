@@ -1,4 +1,4 @@
-# 🧠 **N33tcode 150**: *Master Problem-Solving in Python!* 🐍💻
+# 🧠 **N33tcode 150**: *Master Problem-Solving in Python!* 💻
 
 Welcome to **N33tcode-150** — the ultimate journey to master problem-solving by cracking 150 carefully selected coding challenges, all in **Python**! 🚀
 
