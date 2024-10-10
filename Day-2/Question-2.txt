@@ -1,0 +1,42 @@
+Question: Two Sum
+	You are given an array of integers nums and an integer target. Your task is to find the indices of two distinct numbers in the array that add up to the target.
+
+Requirements:
+	You may assume that each input will have exactly one solution, and you cannot use the same element twice.
+	You should return the answer as an array of two integers representing the indices of the two numbers.
+
+Input:
+	2 <= nums.length <= 104
+	-109 <= nums[i] <= 109
+	-109 <= target <= 109
+
+Output:
+	An array of two integers representing the indices of the two numbers in nums that add up to target.
+
+Example 1:
+Input:
+nums = [2, 7, 11, 15], target = 9
+
+Output:
+[0, 1]
+
+Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
+
+Example 2:
+Input:
+nums = [3, 2, 4], target = 6
+
+Output:
+[1, 2]
+
+Example 3:
+Input:
+nums = [3, 3], target = 6
+
+Output
+[0, 1]
+
+Constraints:
+	Each input will have exactly one valid answer.
+
+Follow-Up: Can you implement an algorithm that runs in less than O(n²) time complexity?
