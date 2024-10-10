@@ -1,0 +1,15 @@
+Problem Statement:
+	You are given two strings s and t. Your task is to determine if t is an anagram of s. An anagram of a string is another string that contains the same characters, only the order of characters can be different.
+	You should return true if t is an anagram of s, and false otherwise.
+
+Example 1:
+Input: s = "anagram", t = "nagaram"
+Output: true
+
+Example 2:
+Input: s = "rat", t = "car"
+Output: false
+
+Constraints:
+	1 ≤ s.length, t.length ≤ 5 * 10⁴
+	s and t consist of lowercase English letters only.
