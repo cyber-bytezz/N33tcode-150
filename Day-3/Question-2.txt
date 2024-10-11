@@ -1,0 +1,22 @@
+Question:
+	Given an array of integers nums and an integer k, write a function to return the k most frequent elements in any order. The elements in the result should appear in descending order of their frequency in nums.
+
+Example:
+
+Input 1:
+nums = [1,1,1,2,2,3], k = 2
+
+Output 1:
+[1, 2]
+
+Input 2:
+nums = [1], k = 1
+
+Output 2:
+[1]
+
+Constraints:
+	1 ≤ nums.length ≤ 10⁵
+	-10⁴ ≤ nums[i] ≤ 10⁴
+	k is in the range [1, the number of unique elements in the array].
+	It is guaranteed that the answer is unique.
