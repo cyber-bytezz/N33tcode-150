@@ -1,0 +1,27 @@
+Question:
+	Given an array of strings, group all the anagrams together. Anagrams are strings that can be rearranged to form each other. The output should return the grouped anagrams in any order.
+
+Example:
+
+Input 1:
+strs = ["eat","tea","tan","ate","nat","bat"]
+
+Output 1:
+[["bat"],["nat","tan"],["ate","eat","tea"]]
+
+Input 2:
+strs = [""]
+
+Output 2:
+[[""]]
+
+Input 3:
+strs = ["a"]
+
+Output 3:
+[["a"]]
+
+Constraints:
+	1 ≤ strs.length ≤ 10⁴
+	0 ≤ strs[i].length ≤ 100
+	strs[i] consists of lowercase English letters.
